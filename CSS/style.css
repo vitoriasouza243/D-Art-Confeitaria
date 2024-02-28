@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root{
+	--pink-1: #FFB7CF;
+	--pink-2: #D14D63;
+	--pink-3: #F9A8C9;
+	--pink-4: #FCC9DA;
+	--pink-5: #EF93AA;
+	--brown-1: #C6665E;
+	--brown-2: #DFB0B0;
+	--white: #fff;
+}
+
+ body{
+	background-color: var(--pink-1);
+ }
+
+ h1, h3 {
+    color: #fff;
+ }
+
+.forma-pink::before {
+	content: "";
+    display: block;
+    position: absolute;
+    border-radius: 10% 0% 39% 79%;
+    width: 570px;
+    height: 794px;
+    background-color: var(--pink-3);
+    transform: translate(90%, -12%);
+}
+
+.forma-pink::after {
+	content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 100% 47% 51%;
+    width: 300px;
+    height: 524px;
+    background-color: var(--pink-3);
+    transform: translate(158%, -39%) rotate(-41deg);
+}
+
+.forma-pink2::before {
+	content: "";
+    display: block;
+    position: absolute;
+    border-radius: 95% 45% 80% 100%;
+    width: 300px;
+    height: 370px;
+    background-color: var(--pink-1);
+    transform: translate(77%, 13%) rotate(-38deg);
+}
+
+.forma-pink2::after {
+	content: "";
+    display: block;
+    position: absolute;
+    border-radius: 62% 100% 100% 84%;
+    width: 496px;
+    height: 505px;
+    background-color: var(--pink-3);
+    transform: translate(110%, 29%) rotate(301deg);
+}
+
+.forma-pink3::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 100% 100% 50% 6%;
+	width: 543px;
+	height: 600px;
+	background-color: var(--pink-3);
+	transform: translate(121%, -14%) rotate(-58deg);
+}
+
+.forma-pink3::after {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 0% 0% 0% 0%;
+	width: 496px;
+	height: 650px;
+	background-color: var(--pink-3);
+	transform: translate(175%, -19%) rotate(180deg);
+}
+
+
+.forma-among::before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 55% 16% 37% 24%;
+	width: 561px;
+	height: 600px;
+	background-color: var(--pink-5);
+	transform: translate(112%, 25%) rotate(40deg);
+}
+
+.forma-among::after {
+	content: "";
+	display: block;
+	position: absolute;
+	border-radius: 100% 100% 30% 30%;
+	width: 356px;
+	height: 358px;
+	background-color: var(--pink-5);
+	transform: translate(247%, 91%) rotate(59deg);
+}
